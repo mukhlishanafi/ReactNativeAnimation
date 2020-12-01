@@ -5,13 +5,15 @@ import { StyleSheet, Text, View } from 'react-native';
 import AnimatedTopTab from './src/AnimatedTopTab';
 import FlatListCarousel from './src/FlatListCarousel';
 import ParallaxCarousel from './src/ParallaxCarousel';
+import AnimatedProgressBar from './src/AnimatedProgressBar';
 
 
 export default function App() {
   return (
     // <AnimatedTopTab />
     // <FlatListCarousel />
-    <ParallaxCarousel />
+    // <ParallaxCarousel />
+    <AnimatedProgressBar />
   );
 }
 

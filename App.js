@@ -4,12 +4,14 @@ import { StyleSheet, Text, View } from 'react-native';
 
 import AnimatedTopTab from './src/AnimatedTopTab';
 import FlatListCarousel from './src/FlatListCarousel';
+import ParallaxCarousel from './src/ParallaxCarousel';
 
 
 export default function App() {
   return (
     // <AnimatedTopTab />
-    <FlatListCarousel />
+    // <FlatListCarousel />
+    <ParallaxCarousel />
   );
 }
 

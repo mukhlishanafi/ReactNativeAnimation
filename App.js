@@ -3,10 +3,13 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
 import AnimatedTopTab from './src/AnimatedTopTab';
+import FlatListCarousel from './src/FlatListCarousel';
+
 
 export default function App() {
   return (
-    <AnimatedTopTab />
+    // <AnimatedTopTab />
+    <FlatListCarousel />
   );
 }
 

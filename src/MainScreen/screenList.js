@@ -3,8 +3,6 @@ export default [
     id: '1',
     screen: 'Animated Tab Indicator',
     route: 'AnimatedTopTab',
-    screen: 'Animated FlatList Picker',
-    route: 'AnimatedFlatListPicker',
   },
   {
     id: '2',

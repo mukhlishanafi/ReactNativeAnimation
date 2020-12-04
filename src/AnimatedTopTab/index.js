@@ -79,11 +79,26 @@ const Tabs = ({ data, scrollX, onItemPress }) => {
         }
       )
     });
-  })
+  },[containerRef])
 
   React.useEffect(() => {
     measuresCalculation()
   }, [measuresCalculation])
+
+  // React.useEffect(() => {
+  //   let m = []
+  //   data.forEach(item => {
+  //     item.ref.current.measureLayout(
+  //       containerRef.current,
+  //       (x, y, width, height) => {
+  //         m.push({ x, y, width, height })
+  //         if (m.length === data.length) {
+  //           setMeasures(m)
+  //         }
+  //       }
+  //     )
+  //   });
+  // }, [])
 
   // console.log(measures)
 

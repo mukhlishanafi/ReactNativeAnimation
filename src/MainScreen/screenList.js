@@ -34,4 +34,9 @@ export default [
     screen: 'Count Down Timer',
     route: 'CountDownTimer',
   },
+  {
+    id: '8',
+    screen: 'Zara Carousel',
+    route: 'ZaraCarousel',
+  },
 ]

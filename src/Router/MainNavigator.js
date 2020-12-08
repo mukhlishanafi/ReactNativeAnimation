@@ -9,6 +9,7 @@ import AnimatedProgressBar from '../AnimatedProgressBar';
 import DonutChart from '../DonutChart';
 import AnimatedFlatListPicker from '../AnimatedFlatListPicker';
 import CountDownTimer from '../CountDownTimer';
+import ZaraCarousel from '../ZaraCarousel';
 import MainScreen from '../MainScreen';
 
 const Stack = createStackNavigator()
@@ -25,6 +26,7 @@ const MainNavigator = () => {
         <Stack.Screen name="DonutChart" component={DonutChart} />
         <Stack.Screen name="AnimatedFlatListPicker" component={AnimatedFlatListPicker} />
         <Stack.Screen name="CountDownTimer" component={CountDownTimer} />
+        <Stack.Screen name="ZaraCarousel" component={ZaraCarousel} />
       </Stack.Navigator>
     </NavigationContainer>
   )

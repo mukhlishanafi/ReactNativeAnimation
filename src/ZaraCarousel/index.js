@@ -28,7 +28,7 @@ const DOT_SIZE = 8;
 const DOT_SPACING = 8;
 const DOT_INDICATOR_SIZE = DOT_SIZE + DOT_SPACING;
 
-export default () => {
+export default function ZaraCarousel() {
   const scrollY = React.useRef(new Animated.Value(0)).current
   return <View style={{ flex: 1 }}>
     <StatusBar hidden />

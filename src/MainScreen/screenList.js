@@ -39,4 +39,9 @@ export default [
     screen: 'Zara Carousel',
     route: 'ZaraCarousel',
   },
+  {
+    id: '9',
+    screen: 'Dot Inversion',
+    route: 'DotInversion',
+  },
 ]

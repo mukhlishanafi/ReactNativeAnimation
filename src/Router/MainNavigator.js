@@ -10,6 +10,7 @@ import DonutChart from '../DonutChart';
 import AnimatedFlatListPicker from '../AnimatedFlatListPicker';
 import CountDownTimer from '../CountDownTimer';
 import ZaraCarousel from '../ZaraCarousel';
+import DotInversion from '../DotInversion';
 import MainScreen from '../MainScreen';
 
 const Stack = createStackNavigator()
@@ -27,6 +28,7 @@ const MainNavigator = () => {
         <Stack.Screen name="AnimatedFlatListPicker" component={AnimatedFlatListPicker} />
         <Stack.Screen name="CountDownTimer" component={CountDownTimer} />
         <Stack.Screen name="ZaraCarousel" component={ZaraCarousel} />
+        <Stack.Screen name="DotInversion" component={DotInversion} />
       </Stack.Navigator>
     </NavigationContainer>
   )
